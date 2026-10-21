@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+/.vs
+
+# Generated analytical database and local output (keep data/sample tracked)
+data/processed/
+*.duckdb.wal
+# Local code-export snapshots may contain private paths
+marketing-attribution-lab_codigo_fonte_*.txt
+# Recreated from versioned synthetic sample/generator
+data/raw/
